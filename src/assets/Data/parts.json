@@ -1,0 +1,9 @@
+[
+    {"id": 1, "PartsDescription": "Rack End(Left)", "makeID": 2, "taskID": 5, "DistributorCost": "33.00", "SupplierID": 1 ,"laborCost": 75.00},
+      {"id": 2, "PartsDescription": "Rack End(Right)", "makeID": 3, "taskID": 5, "DistributorCost": "31.00", "SupplierID": 1 ,"laborCost": 85.00},
+      {"id": 3, "PartsDescription": "Rack Suspension(Left)", "makeID": 3, "taskID": 3, "DistributorCost": "322.00", "SupplierID": 2,"laborCost": 175.00 },
+      {"id": 4, "PartsDescription": "Rack Bushing(Right)", "makeID": 4, "taskID": 3, "DistributorCost": "12.00", "SupplierID": 12,"laborCost": 45.00 },
+      {"id": 5, "PartsDescription": "Rack Bushing(Left)", "makeID": 8, "taskID": 3, "DistributorCost": "32.00", "SupplierID": 4,"laborCost": 43.00 },
+      {"id": 6, "PartsDescription": "Canister(Left)", "makeID": 1, "taskID": 2, "DistributorCost": "31.00", "SupplierID": 12,"laborCost": 50.00 },
+      {"id": 7, "PartsDescription": "Pinion End(Right)", "makeID": 1, "taskID": 13, "DistributorCost": "12.00", "SupplierID": 5,"laborCost": 15.00 } 
+]

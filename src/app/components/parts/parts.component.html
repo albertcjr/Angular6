@@ -1,0 +1,31 @@
+  <table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Description</th>
+            <th> ID</th>
+            <th>Cost</th>
+            <th>Supplier ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let part of partsList;">
+            <td>{{part.id }} </td>
+            <td>{{part.PartsDescription }}</td>
+            <td>{{part.makeID}}</td>
+            <td>{{part.DistributorCost | currency:'USD':'symbol':'1.2-2'}}</td>
+            <td>{{part.laborCost | currency:'USD':'symbol':'1.2-2'}}</td>
+            <td>
+              <button (click)="addToList(part.id)" type="button">Add Part</button>
+          </td>
+        </tr>
+       <tr *ngIf="part?.length == 0">
+            <td colspan="5">
+                No employees to display 
+            </td>
+        </tr>
+      </tbody>
+</table>
+
+
+

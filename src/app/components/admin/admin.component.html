@@ -1,0 +1,30 @@
+<form #empForm="ngForm" (ngSubmit)="saveEmpRecords(empForm)">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Create Employee</h3>
+      </div>
+      <div class="panel-body">
+        <div class="form-group col-md-6">
+          <label for="empid" class="col-md-6 control-label">Employee ID</label>
+          <input id="empid" [(ngModel)]="empid" type="text" class="form-control" name="empid" >
+        </div>
+        <div class="form-group col-md-6">
+            <label for="lname" class="col-md-6 control-label">Last Name</label>
+            <input id="lname" name="lname" [(ngModel)]="lname"  type="text" class="form-control"  >
+          </div>  
+          <div class="form-group col-md-6">
+              <label for="firstname" class="col-md-6 control-label">First Name</label>
+              <input id="firstname" type="text" [(ngModel)]="firstname" class="form-control" name="firstname" >
+          </div>
+        <div class="form-group col-md-6">
+          <label for="email" class="col-md-6 control-label">Email</label>
+          <input id="email" [(ngModel)]="email" type="text" class="form-control" name="email" >
+        </div>
+      </div>
+      <div class="panel-footer">
+          <button class="btn btn-primary" type="submit">Save</button>
+        </div>
+    </div>
+  </form>
+
+{{ empForm.value || json }}

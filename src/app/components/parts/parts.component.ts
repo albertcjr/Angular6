@@ -19,9 +19,10 @@ export class PartsComponent {
   /*ngOnInit() {
    this._PartsService.getParts()
        .subscribe(data => this.partsList = data);  */
-       addToList( id: number): void {
+       addToList( id: number): void 
+       {
         console.log('ID is :', id);
-      }
+       }
      
   }
 

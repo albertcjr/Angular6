@@ -17,6 +17,8 @@ import { UserdataService } from './providers/userdata.service';
 import { MaintenanceComponent } from './components/maintenance/maintenance.component';
 import { AdminComponent } from './components/admin/admin.component';
 import { PartsService } from './services/parts/parts.service';
+import { UsersComponent } from './components/users/users.component';
+import { WorkordersComponent } from './components/workorders/workorders.component';
 
 
 @NgModule({
@@ -30,7 +32,9 @@ import { PartsService } from './services/parts/parts.service';
     AboutComponent,
     ServicesComponent,
     MaintenanceComponent,
-    AdminComponent
+    AdminComponent,
+    UsersComponent,
+    WorkordersComponent
   ],
   imports: [
     BrowserModule,
@@ -41,7 +45,8 @@ import { PartsService } from './services/parts/parts.service';
       {path:'about',component: AboutComponent},
       {path:'services',component: ServicesComponent},
       {path: 'maintenance', component: MaintenanceComponent},
-      {path: 'admin', component: AdminComponent}
+      {path: 'admin', component: AdminComponent},
+      {path: 'users', component: UsersComponent}
     ])
   ],
   providers: [UserdataService,PartsService],

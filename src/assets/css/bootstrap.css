@@ -4089,6 +4089,7 @@
  .nav-link {
    display: block;
    padding: 0.5rem 1rem;
+  
  }
  
  .nav-link:hover, .nav-link:focus {
@@ -4111,6 +4112,7 @@
    border: 1px solid transparent;
    border-top-left-radius: 0.25rem;
    border-top-right-radius: 0.25rem;
+  
  }
  
  .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {

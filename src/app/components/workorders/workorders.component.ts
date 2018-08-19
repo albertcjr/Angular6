@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewContainerRef, ViewChild, ComponentFactoryResolver } from '@angular/core';
 
 @Component({
   selector: 'app-workorders',
@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./workorders.component.css']
 })
 export class WorkordersComponent implements OnInit {
-
-  constructor() { }
+ 
+constructor() { }
 
   ngOnInit() {
   }
+
 
 }

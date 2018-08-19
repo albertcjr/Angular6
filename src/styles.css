@@ -4143,7 +4143,7 @@
  .nav-pills .nav-link.active,
  .nav-pills .show > .nav-link {
    color: #fff;
-   background-color: #EB6864;
+   background-color: #E97F38;
  }
  
  .nav-fill .nav-item {
@@ -4656,7 +4656,7 @@
    -webkit-box-flex: 1;
        -ms-flex: 1 1 auto;
            flex: 1 1 auto;
-   padding: 1.25rem;
+   padding: 0.50rem;
  }
  
  .card-title {
@@ -4674,7 +4674,7 @@
  
  .card-link:hover {
    text-decoration: none;
- }
+  }
  
  .card-link + .card-link {
    margin-left: 1.25rem;
@@ -4723,7 +4723,7 @@
    right: 0;
    bottom: 0;
    left: 0;
-   padding: 1.25rem;
+   padding: 0.75rem;
  }
  
  .card-img {
@@ -9536,3 +9536,4 @@
 :-moz-placeholder { /* Firefox 18- */
   font-size: 0.75rem;
 }
+.label {white-space:nowrap;} /*label no wrap*/
